@@ -8,12 +8,15 @@ window.config = {
     dicomWeb: [
       {
         name: 'Orthanc',
-        wadoUriRoot: '/orthanc/wado',
-        qidoRoot: '/orthanc/dicom-web',
-        wadoRoot: '/orthanc/dicom-web',
-        qidoSupportsIncludeField: true,
+        wadoUriRoot: 'https://radiodiagnosticoinfantil.com.ar/orthanc/wado',
+        qidoRoot: 'https://radiodiagnosticoinfantil.com.ar/orthanc/dicom-web',
+        wadoRoot: 'https://radiodiagnosticoinfantil.com.ar/orthanc/dicom-web',
+        qidoSupportsIncludeField: false,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
+        requestOptions: {
+          auth: 'rdi_app:iE0;tD7>cT6~mB7!nL5(qQ0}zB4>xL4_',
+        },
         enableStudyLazyLoad: true,
         supportsFuzzyMatching: true,
       },
