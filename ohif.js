@@ -8,9 +8,9 @@ window.config = {
     dicomWeb: [
       {
         name: 'Orthanc',
-        wadoUriRoot: 'https://radiodiagnosticoinfantil.com.ar/orthanc/wado',
-        qidoRoot: 'https://radiodiagnosticoinfantil.com.ar/orthanc/dicom-web',
-        wadoRoot: 'https://radiodiagnosticoinfantil.com.ar/orthanc/dicom-web',
+        wadoUriRoot: 'https://viewer.radiodiagnosticoinfantil.com.ar/orthanc/wado',
+        qidoRoot: 'https://viewer.radiodiagnosticoinfantil.com.ar/orthanc/dicom-web',
+        wadoRoot: 'https://viewer.radiodiagnosticoinfantil.com.ar/orthanc/dicom-web',
         qidoSupportsIncludeField: false,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',

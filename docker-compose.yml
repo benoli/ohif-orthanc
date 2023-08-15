@@ -7,8 +7,8 @@ services:
       - 8042:8042
       - 4242:4242
     volumes:
-      - ./orthanc.json:/etc/orthanc/orthanc.json:ro
-      - ./orthanc_db:/var/lib/orthanc/db/
+      - /home/rdi/tmp/orthanc.json:/etc/orthanc/orthanc.json:ro
+      - /home/rdi/tmp/orthanc-db:/var/lib/orthanc/db/
     restart: always
     networks:
       - pacs
